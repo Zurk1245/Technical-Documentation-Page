@@ -1,0 +1,86 @@
+* {
+    font-family: 'Autour One', cursive;
+}
+
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 150px;
+    width: 300px;
+    height: 100%;
+    border-right: 10px solid rgb(30, 248, 237);
+    background-image: url(shattered-island.gif);
+}
+
+.nav-link {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3em;
+    color: rgb(34, 155, 255);
+    position: relative;
+    left: 12px; 
+}
+
+.nav-link:hover  {
+    color: deeppink;
+}
+
+.navbar-title {
+    margin: 10px 0px 0px 15px; 
+    color: rgba(238, 255, 0, 0.705);
+    font-size: 1.5em;
+
+}
+
+#main-doc {
+    background-image: url(chalkboard.jpg);
+    position: absolute;
+    top: 0;
+    left: 310px;
+    color: rgba(238, 255, 0, 0.705);
+    min-height: 2900px;
+    height: auto;
+}
+
+.main-section {
+    margin: 20px 40px 0px 40px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+}
+
+.link-james-clear {
+    color: rgba(238, 255, 0, 0.705)
+}
+
+
+
+@media(max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbar {
+    position: static;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    border: 22.5px solid rgb(30, 248, 237);
+    text-align: center;
+    box-sizing: border-box;
+    order: 1;
+    }
+
+    #main-doc {
+        position: static;
+        width: 100%;
+        order: 2;
+    }
+}
