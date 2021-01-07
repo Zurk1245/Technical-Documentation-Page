@@ -2,6 +2,9 @@
     font-family: 'Autour One', cursive;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 #navbar {
     position: fixed;
